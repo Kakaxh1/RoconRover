@@ -1,0 +1,67 @@
+# ReconRover API Keys Configuration
+# This file contains all API keys for the reconnaissance tool
+# NEVER commit this file to version control or share it publicly
+
+# Search and Discovery APIs
+serpapi:
+  key: "YOUR_SERPAPI_KEY_HERE"  # Get from https://serpapi.com/
+  rate_limit: 100  # requests per hour
+
+# Domain and Subdomain Discovery
+securitytrails:
+  key: "YOUR_SECURITYTRAILS_KEY_HERE"  # Get from https://securitytrails.com/
+  rate_limit: 50  # requests per hour
+
+# Technology Stack Detection
+builtwith:
+  key: "YOUR_BUILTWITH_KEY_HERE"  # Get from https://builtwith.com/
+  rate_limit: 1000  # requests per day
+
+# Port and Service Information
+shodan:
+  key: "YOUR_SHODAN_KEY_HERE"  # Get from https://shodan.io/
+  rate_limit: 100  # requests per minute
+
+zoomeye:
+  key: "YOUR_ZOOMEYE_KEY_HERE"  # Get from https://zoomeye.org/
+  rate_limit: 100  # requests per hour
+
+# SSL Certificate and Service Discovery
+censys:
+  api_id: "YOUR_CENSYS_API_ID_HERE"  # Get from https://censys.io/
+  api_secret: "YOUR_CENSYS_API_SECRET_HERE"
+  rate_limit: 100  # requests per hour
+
+# Email Discovery
+hunter:
+  key: "YOUR_HUNTER_KEY_HERE"  # Get from https://hunter.io/
+  rate_limit: 100  # requests per month
+
+# Breach Database
+haveibeenpwned:
+  key: "YOUR_HAVEIBEENPWNED_KEY_HERE"  # Get from https://haveibeenpwned.com/
+  rate_limit: 1500  # requests per day
+
+# Archived Endpoints
+wayback_machine:
+  # No API key required for basic usage
+  rate_limit: 100  # requests per hour
+
+# AI Report Generation
+openai:
+  key: "YOUR_OPENAI_KEY_HERE"  # Get from https://platform.openai.com/
+  model: "gpt-4o-mini"
+  rate_limit: 100  # requests per minute
+
+# OpenRouter.ai (Alternative AI Provider)
+openrouter:
+  key: "YOUR_OPENROUTER_KEY_HERE"  # Get from https://openrouter.ai/
+  base_url: "https://openrouter.ai/api/v1"
+  model: "anthropic/claude-3.5-sonnet"  # or "openai/gpt-4o-mini"
+  rate_limit: 100  # requests per minute
+
+# General Configuration
+global:
+  timeout: 30  # seconds
+  max_retries: 3
+  user_agent: "ReconRover/1.0 (Security Research Tool)"

@@ -1,0 +1,45 @@
+{
+  "subdomains": {
+    "dev.example.com": {
+      "A": [],
+      "AAAA": [],
+      "CNAME": []
+    },
+    "products.example.com": {
+      "A": [],
+      "AAAA": [],
+      "CNAME": []
+    },
+    "m.example.com": {
+      "A": [],
+      "AAAA": [],
+      "CNAME": []
+    },
+    "www.example.com": {
+      "A": [
+        "184.25.109.8",
+        "184.25.109.11"
+      ],
+      "AAAA": [
+        "2600:140f:1800::173a:5f88",
+        "2600:140f:1800::173a:5f8b"
+      ],
+      "CNAME": [
+        "www.example.com-v4.edgesuite.net."
+      ]
+    },
+    "support.example.com": {
+      "A": [],
+      "AAAA": [],
+      "CNAME": []
+    }
+  },
+  "total_subdomains": 5,
+  "total_ips": 4,
+  "record_types": [
+    "A",
+    "AAAA",
+    "CNAME"
+  ],
+  "timestamp": 33668.14
+}

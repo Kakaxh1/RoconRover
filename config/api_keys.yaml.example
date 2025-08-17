@@ -1,0 +1,60 @@
+# ReconRover API Keys Configuration Example
+# Copy this file to config/api_keys.yaml and fill in your actual API keys
+# NEVER commit the actual api_keys.yaml file to version control
+
+# Search and Discovery APIs
+serpapi:
+  key: "your_serpapi_key_here"
+  rate_limit: 100  # requests per hour
+
+# Domain and Subdomain Discovery
+securitytrails:
+  key: "your_securitytrails_key_here"
+  rate_limit: 50  # requests per hour
+
+# Technology Stack Detection
+builtwith:
+  key: "your_builtwith_key_here"
+  rate_limit: 1000  # requests per day
+
+# Port and Service Information
+shodan:
+  key: "your_shodan_key_here"
+  rate_limit: 100  # requests per minute
+
+zoomeye:
+  key: "your_zoomeye_key_here"
+  rate_limit: 100  # requests per hour
+
+# SSL Certificate and Service Discovery
+censys:
+  api_id: "your_censys_api_id_here"
+  api_secret: "your_censys_api_secret_here"
+  rate_limit: 100  # requests per hour
+
+# Email Discovery
+hunter:
+  key: "your_hunter_key_here"
+  rate_limit: 100  # requests per month
+
+# Breach Database
+haveibeenpwned:
+  key: "your_hibp_key_here"
+  rate_limit: 1500  # requests per day
+
+# Archived Endpoints
+wayback_machine:
+  # No API key required for basic usage
+  rate_limit: 100  # requests per hour
+
+# AI Report Generation
+openai:
+  key: "your_openai_key_here"
+  model: "gpt-4o-mini"
+  rate_limit: 100  # requests per minute
+
+# General Configuration
+global:
+  timeout: 30  # seconds
+  max_retries: 3
+  user_agent: "ReconRover/1.0 (Security Research Tool)"
