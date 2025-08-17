@@ -66,7 +66,7 @@ python ai_report.py --json_inputs data/*.json --save_md
 ### Master CLI (All-in-One)
 
 <p align="center">
-  <img src="assets/Screenshot1.png" alt="ReconRover Logo" width="300"/>
+  <img src="assets/Screenshot2.png" alt="ReconRover Logo" width="700"/>
 </p>
 
 ```bash
