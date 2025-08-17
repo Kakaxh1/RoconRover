@@ -1,5 +1,9 @@
 # ReconRover (Kkaxh1)
 
+<p align="center">
+  <img src="assets/RECONROVER Logo Design.png" alt="ReconRover Logo" width="300"/>
+</p>
+
 A comprehensive reconnaissance automation tool that performs end-to-end security reconnaissance on target organizations.
 
 ## Features
