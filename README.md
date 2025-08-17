@@ -312,7 +312,7 @@ python reconrover.py --domain target.com
 
 This tool is for **authorized security testing only**. Always ensure you have proper authorization before performing reconnaissance on any target. The authors are not responsible for any misuse of this tool.
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
