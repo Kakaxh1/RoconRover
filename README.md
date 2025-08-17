@@ -1,4 +1,4 @@
-# ReconRover 🕵️‍♂️
+# ReconRover (Kkaxh1)
 
 A comprehensive reconnaissance automation tool that performs end-to-end security reconnaissance on target organizations.
 
@@ -78,26 +78,6 @@ python reconrover.py --domain tesla.com --module_timeout 600 --overall_timeout 3
 # Run with aggressive timeouts for quick testing
 python reconrover.py --domain example.com --module_timeout 30 --overall_timeout 120
 
-# Test the logo display
-python demo_logo.py
-
-# Test progress bars
-python test_progress.py
-
-# Test Ctrl+C handling
-python test_ctrl_c.py
-
-# Test timeout functionality
-python test_timeout.py
-
-# Check API credits and usage
-python check_credits.py
-
-# Demo credit display features
-python demo_credits.py
-
-# Diagnose common issues
-python diagnose_issues.py
 ```
 
 ## 📁 Output Structure
@@ -227,9 +207,6 @@ ReconRover includes comprehensive error reporting and troubleshooting tools:
 
 **Diagnostic Tools:**
 ```bash
-# Comprehensive system diagnosis
-python diagnose_issues.py
-
 # Check API credits and validity
 python check_credits.py
 
@@ -344,9 +321,6 @@ This tool is for **authorized security testing only**. Always ensure you have pr
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🆘 Support
 
