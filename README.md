@@ -264,6 +264,11 @@ python reconrover.py --domain example.com --module_timeout 30 --overall_timeout 
 python reconrover.py --domain target.com
 ```
 
+<p align="center">
+  <img src="assets/Screenshot1.png" alt="ReconRover Logo" width="700"/>
+</p>
+
+
 ## Module Details
 
 ### 1. Domain Resolver (`domain_resolver.py`)
