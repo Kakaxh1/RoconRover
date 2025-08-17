@@ -2,7 +2,7 @@
 
 A comprehensive reconnaissance automation tool that performs end-to-end security reconnaissance on target organizations.
 
-## 🚀 Features
+## Features
 
 - **Real-Time Progress Bars**: Visual progress tracking for every process
 - **Graceful Ctrl+C Handling**: Safe interruption with progress saving
@@ -18,7 +18,7 @@ A comprehensive reconnaissance automation tool that performs end-to-end security
 - **AI-Powered Reporting**: Generate comprehensive reconnaissance reports
 - **Centralized API Management**: Secure API key configuration system
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 mkdir data
 ```
 
-## 🛠️ Usage
+## Usage
 
 ### Individual Modules
 
@@ -79,7 +79,7 @@ python reconrover.py --domain example.com --module_timeout 30 --overall_timeout 
 
 ```
 
-## 📁 Output Structure
+## Output Structure
 
 ```
 data/
@@ -102,7 +102,7 @@ data/
 └── recon_report.pdf    # PDF version of report
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### API Keys Required
 
@@ -156,7 +156,7 @@ ReconRover uses a centralized API key management system. Create your configurati
      key: "your_zoomeye_key"
    ```
 
-**⚠️ Security Note:** The `config/api_keys.yaml` file is automatically excluded from version control. Never commit your actual API keys to any repository.
+** Security Note:** The `config/api_keys.yaml` file is automatically excluded from version control. Never commit your actual API keys to any repository.
 
 ### Rate Limiting
 
@@ -256,7 +256,7 @@ python reconrover.py --domain example.com --module_timeout 30 --overall_timeout 
 python reconrover.py --domain target.com
 ```
 
-## 🎯 Module Details
+## Module Details
 
 ### 1. Domain Resolver (`domain_resolver.py`)
 - Converts company names to main domains
@@ -308,7 +308,7 @@ python reconrover.py --domain target.com
 - Highlights critical assets and attack surfaces
 - Generates executive summaries
 
-## ⚠️ Legal Disclaimer
+## Legal Disclaimer
 
 This tool is for **authorized security testing only**. Always ensure you have proper authorization before performing reconnaissance on any target. The authors are not responsible for any misuse of this tool.
 
@@ -321,7 +321,7 @@ This tool is for **authorized security testing only**. Always ensure you have pr
 5. Submit a pull request
 
 
-## 🆘 Support
+## Support
 
 For issues and questions:
 - Open an issue on GitHub
