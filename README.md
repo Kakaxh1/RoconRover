@@ -4,7 +4,6 @@ A comprehensive reconnaissance automation tool that performs end-to-end security
 
 ## 🚀 Features
 
-- **Hacker-Style CLI**: Beautiful ASCII art logo with full hacker aesthetic
 - **Real-Time Progress Bars**: Visual progress tracking for every process
 - **Graceful Ctrl+C Handling**: Safe interruption with progress saving
 - **Comprehensive Timeout Protection**: Module and overall timeouts with graceful handling
