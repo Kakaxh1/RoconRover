@@ -15,12 +15,12 @@ def get_logo() -> str:
 ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝ ╚═════╝   ╚═══╝  ╚══════╝╚═╝  ╚═╝
 
 ╔══════════════════════════════════════════════════════════════════════════════════════╗
-║                        🕵️‍♂️  RECONROVER by kkaxh1  🕵️‍♂️                           ║
-║                    ⚡ Advanced Reconnaissance Automation ⚡                        ║
+║                        🕵️‍♂️  RECONROVER by kkaxh1  🕵️‍♂️                                 ║
+║                    ⚡ Advanced Reconnaissance Automation ⚡                         ║
 ║                                                                                      ║
-║  [•] Domain Resolution    [•] Subdomain Enumeration    [•] DNS Analysis            ║
-║  [•] Port Scanning        [•] Certificate Analysis     [•] Tech Stack Detection    ║
-║  [•] Email Enumeration    [•] Breach Checking          [•] AI-Powered Reports      ║
+║  [•] Domain Resolution    [•] Subdomain Enumeration    [•] DNS Analysis              ║
+║  [•] Port Scanning        [•] Certificate Analysis     [•] Tech Stack Detection      ║
+║  [•] Email Enumeration    [•] Breach Checking          [•] AI-Powered Reports        ║
 ╚══════════════════════════════════════════════════════════════════════════════════════╝
 """
 
@@ -28,8 +28,8 @@ def get_mini_logo() -> str:
     """Get a smaller version of the logo for compact displays"""
     return """
 ╔══════════════════════════════════════════════════════════════╗
-║                    🕵️‍♂️  RECONROVER by kkaxh1  🕵️‍♂️                      ║
-║              ⚡ Advanced Reconnaissance Automation ⚡        ║
+║                    🕵️‍♂️  RECONROVER by kkaxh1  🕵️‍♂️             ║
+║              ⚡ Advanced Reconnaissance Automation ⚡       ║
 ╚══════════════════════════════════════════════════════════════╝
 """
 
@@ -49,3 +49,4 @@ def get_banner() -> str:
 
 if __name__ == "__main__":
     print(get_logo())
+
