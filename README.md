@@ -65,10 +65,6 @@ python ai_report.py --json_inputs data/*.json --save_md
 
 ### Master CLI (All-in-One)
 
-<p align="center">
-  <img src="assets/Screenshot2.png" alt="ReconRover Logo" width="700"/>
-</p>
-
 ```bash
 # Run complete reconnaissance (with beautiful hacker-style logo)
 python reconrover.py --company_name "Tesla Inc." --save_all_json --save_report
@@ -263,11 +259,6 @@ python reconrover.py --domain example.com --module_timeout 30 --overall_timeout 
 # Default timeouts
 python reconrover.py --domain target.com
 ```
-
-<p align="center">
-  <img src="assets/Screenshot1.png" alt="ReconRover Logo" width="700"/>
-</p>
-
 
 ## Module Details
 
